@@ -6,7 +6,7 @@
 #include <netdb.h>
 #include <arpa/inet.h>
 
-nt hostname_to_ip(char *, char *);
+int hostname_to_ip(char *, char *);
 
 int main (int argc, char *argv[]) {
     if (argc < 2) {
